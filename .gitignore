@@ -1,0 +1,9 @@
+# Ignore build files
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+build/
+Debug/
+Release/
