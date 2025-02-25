@@ -1,20 +1,15 @@
-# Bare-Metal LED Toggle (STM32)
+# Bare Metal Embedded Projects
 
-This is my first **bare-metal embedded project!** :) 
-It toggles an LED connected to **GPIOA Pin 5 (PA5)** on an **STM32** microcontroller.
+This repository contains my hands-on projects using STM32 microcontrollers in Bare Metal Programming.
 
-## 🛠️ How to Compile & Flash
-1. Use an **ARM GCC toolchain**: `arm-none-eabi-gcc`
-2. Compile:
-3. Flash the binary using **OpenOCD** or **ST-Link Utility**.
+## 🔹 Project 1: LED Toggle  
+**Goal:** Simple GPIO LED toggling using bitwise operations.  
+**Path:** `Bare_Metal_Projects/Project1_LED_Toggle/`
 
-## 📜 Registers Used
-- **RCC_AHB1ENR** → Enables GPIOA clock
-- **GPIOA_MODER** → Configures PA5 as output
-- **GPIOA_ODR** → Controls PA5 (LED ON/OFF)
+## 🔹 Project 2: GPIO LED Controller  
+**Goal:** Control LED using a button (GPIO input & output).  
+**Path:** `Bare_Metal_Projects/Project2_GPIO_LED_CONTROLLER/`
 
-## 📌 GitHub Repository:
-🔗 [https://github.com/Radhika97-engg/baremetal-led-toggle](https://github.com/Radhika97-engg/baremetal-led-toggle)
+More projects coming soon... 🚀
 
-🚀 Excited to build more!  
 
